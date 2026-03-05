@@ -1,31 +1,18 @@
 ```
 salary-predictor
 │
-├── Backend
-│   ├── server.js
-│   ├── package.json
-│   └── node_modules
+├── Backend              # Express API server
+│   └── server.js
 │
-├── Frontend
-│   ├── src
-│   │   ├── App.jsx
-│   │   ├── main.jsx
-│   │   └── assets
-│   │
-│   ├── Component
-│   │   └── SalaryPredictor.jsx
-│   │
-│   ├── public
-│   ├── package.json
-│   └── vite.config.js
+├── Frontend             # React UI
+│   └── SalaryPredictor.jsx
 │
-├── ML
-│   ├── ml_api.py
-│   └── requirements.txt
+├── ML                   # Machine Learning service
+│   └── ml_api.py
 │
-├── .gitignore
 └── README.md
 ```
+
 
 
 ```mermaid
